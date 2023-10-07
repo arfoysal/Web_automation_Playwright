@@ -4,10 +4,9 @@ import com.microsoft.playwright.options.*;
 import static com.microsoft.playwright.assertions.PlaywrightAssertions.assertThat;
 
 import java.nio.file.Paths;
-import java.util.*;
 import java.util.regex.Pattern;
 
-public class Examples {
+public class Record_Examples {
     public static void main(String[] args) {
 //        mvn exec:java -e -D exec.mainClass=com.microsoft.playwright.CLI -D exec.args="codegen demo.playwright.dev/todomvc"
 //        ENV: PWDEBUG=1
